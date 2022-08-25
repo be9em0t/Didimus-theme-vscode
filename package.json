@@ -1,0 +1,22 @@
+{
+  "name": "0ran9e",
+  "displayName": "0ran9e",
+  "description": "Sugary and Dark",
+  "version": "0.0.1",
+  "repository": "https://github.com/be9em0t/0ran9e-theme-vscode.git",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "0ran9e",
+        "uiTheme": "vs-dark",
+        "path": "./themes/0ran9e-color-theme.json"
+      }
+    ]
+  }
+}
