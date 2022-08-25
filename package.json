@@ -1,9 +1,9 @@
 {
-  "name": "0ran9e",
-  "displayName": "0ran9e",
-  "description": "Sugary and Dark",
-  "version": "0.0.2",
-  "repository": "https://github.com/be9em0t/0ran9e-theme-vscode.git",
+  "name": "Didimus",
+  "displayName": "Didimus",
+  "description": "Fragrant Darkness",
+  "version": "0.0.3",
+  "repository": "https://github.com/be9em0t/Didimus-theme-vscode.git",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -13,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "0ran9e",
+        "label": "Didimus",
         "uiTheme": "vs-dark",
-        "path": "./themes/0ran9e-color-theme.json"
+        "path": "./themes/Didimus-color-theme.json"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "name": "0ran9e",
+  "name": "Didimus",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -1914,7 +1914,7 @@
     "textLink.foreground": "#3794ff",
     "editor.background": "#1c1e26",
     "editor.foreground": "#d4d4d4",
-    "editorLineNumber.foreground": "#FFFFFF21",
+    "editorLineNumber.foreground": "#4f6887",
     "editorCursor.foreground": "#aeafad",
     "editorCursor.background": "#ffffff",
     "editor.selectionBackground": "#264f78",
