@@ -1,8 +1,9 @@
 {
-  "name": "Didimus",
+  "name": "didimus",
   "displayName": "Didimus",
   "description": "Fragrant Darkness",
   "version": "0.0.3",
+  "publisher": "be9em0t",
   "repository": "https://github.com/be9em0t/Didimus-theme-vscode.git",
   "engines": {
     "vscode": "^1.70.0"

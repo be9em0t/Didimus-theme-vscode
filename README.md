@@ -1,4 +1,4 @@
-# raen-plus README
+# Didimus VS Code color theme README
 
 To build local .vsix file run
 vsce package -o .\build\
