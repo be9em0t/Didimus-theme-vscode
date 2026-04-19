@@ -1140,7 +1140,7 @@
       }
     },
     {
-      "name": "support php constants",
+      "name": "support rust constants",
       "scope": "support.constant.core.rust",
       "settings": {
         "foreground": "#6ac5f9"

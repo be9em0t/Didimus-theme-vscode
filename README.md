@@ -1,19 +1,29 @@
-# Didimus VS Code color theme README
+# Didimus
 
-To build local .vsix file run
-vsce package -o .\build\
+Didimus is a VS Code dark theme extension with a high-contrast neon palette for editor tokens and workbench UI.
 
-## Working with Markdown
+## Build
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Create a local `.vsix` package from the repository root with either of these cross-platform commands:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+```bash
+npx @vscode/vsce package
+```
 
-## For more information
+Or, if `vsce` is already installed globally:
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+```bash
+vsce package
+```
 
-**Enjoy!**
+The generated `.vsix` file is written to the project root.
+
+## Install Locally
+
+After building, install the package in VS Code:
+
+```bash
+code --install-extension didimus-0.0.4.vsix
+```
+
+You can also use the Extensions view menu in VS Code and choose `Install from VSIX...`.
