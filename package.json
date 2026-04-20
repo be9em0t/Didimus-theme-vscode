@@ -2,9 +2,10 @@
   "name": "didimus",
   "displayName": "Didimus",
   "description": "Fragrant Darkness",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "be9em0t",
   "repository": "https://github.com/be9em0t/Didimus-theme-vscode.git",
+  "icon": "media/Didimus_Transparent.png",
   "engines": {
     "vscode": "^1.70.0"
   },
@@ -25,6 +26,11 @@
         "label": "Didimus Insiders",
         "uiTheme": "vs-dark",
         "path": "./themes/Didimus-insiders-color-theme.json"
+      },
+      {
+        "label": "Didimus Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Didimus-blue-color-theme.json"
       }
     ]
   }
