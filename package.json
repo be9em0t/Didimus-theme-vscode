@@ -8,6 +8,9 @@
   "engines": {
     "vscode": "^1.70.0"
   },
+  "scripts": {
+    "build:insiders": "node ./scripts/build-insiders.js"
+  },
   "categories": [
     "Themes"
   ],
@@ -17,6 +20,11 @@
         "label": "Didimus",
         "uiTheme": "vs-dark",
         "path": "./themes/Didimus-color-theme.json"
+      },
+      {
+        "label": "Didimus Insiders",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Didimus-insiders-color-theme.json"
       }
     ]
   }
