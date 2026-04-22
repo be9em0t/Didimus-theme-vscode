@@ -27,3 +27,9 @@ code --install-extension didimus-0.0.4.vsix
 ```
 
 You can also use the Extensions view menu in VS Code and choose `Install from VSIX...`.
+
+## Future Work
+
+- Command Center label dimming: `commandCenter.foreground` is now tuned in the bundled themes, but the final rendered workspace/session label in VS Code still dims after the window finishes reloading.
+- Current diagnosis: the bright theme color appears briefly during `Developer: Reload Window`, then later component CSS dims the label, likely via the compact agent status label styling.
+- Theme JSON alone is probably not enough to fully fix this. The practical next step is to test a custom CSS loader override for `.command-center .agent-status-pill.compact-mode .agent-status-label` with `opacity: 1` and explicit foreground color inheritance.
