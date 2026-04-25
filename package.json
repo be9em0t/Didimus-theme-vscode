@@ -16,6 +16,9 @@
     "Themes"
   ],
   "contributes": {
+    "configurationDefaults": {
+      "editor.fontFamily": "Source Code Pro"
+    },
     "themes": [
       {
         "label": "Didimus",
@@ -31,6 +34,11 @@
         "label": "Didimus Blue",
         "uiTheme": "vs-dark",
         "path": "./themes/Didimus-blue-color-theme.json"
+      },
+      {
+        "label": "Didimus Blue Sundown",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Didimus-blue-sundown-color-theme.json"
       }
     ]
   }

@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+This is the version from the current branch.
+It shows the current branch header color when resolving conflicts.
+=======
+This is the version from the incoming branch.
+It shows the incoming branch header color when resolving conflicts.
+>>>>>>> incoming-branch
+
+Use this file to preview how merge conflict theming appears in VS Code.

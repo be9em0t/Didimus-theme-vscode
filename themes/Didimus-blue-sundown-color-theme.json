@@ -1,5 +1,5 @@
 {
-  "name": "Didimus",
+  "name": "Didimus Blue Sundown",
   "type": "dark",
   "semanticHighlighting": true,
   "semanticTokenColors": {
@@ -792,7 +792,7 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "normal",
         "foreground": "#ffb300"
       }
     },
@@ -800,7 +800,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "",
+        "fontStyle": "normal",
         "foreground": "#6ac5f9"
       }
     },
@@ -1849,11 +1849,14 @@
     "focusBorder": "#007fd4",
     "selection.background": "#256aa7",
     "scrollbar.shadow": "#000000",
-    "activityBar.foreground": "#ffffff",
+    // "activityBarTop.foreground":"#FFC107",
+    "activityBar.activeFocusBorder":"#FAC800",
+    "activityBar.foreground": "#bbbbbb",
     "activityBar.background": "#1c1e26",
-    "activityBar.inactiveForeground": "#ffffff66",
-    "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#007acc",
+    "activityBar.inactiveForeground": "#027FD4",
+    // "activityBar.inactiveForeground": "#94FDEB",
+    // "activityBarBadge.foreground": "#ffffff",
+    // "activityBarBadge.background": "#007acc",
     "activityBar.border": "#1c1e26",
     "sideBar.background": "#242f3d",
     "sideBar.border": "#285E8C",
@@ -1881,16 +1884,16 @@
     "statusBarItem.hoverBackground": "#B957BF",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",
-    "statusBar.noFolderBackground": "#68217a",
+    "statusBar.noFolderBackground": "#7929B0",
     "statusBar.noFolderForeground": "#e7caff",
     "statusBarItem.remoteBackground": "#01558D",
-    "statusBarItem.remoteForeground": "#e7caff",
+    "statusBarItem.remoteForeground": "#eeeeee",
     "titleBar.activeBackground": "#1c1e26",
     "titleBar.activeForeground": "#B3B3B3",
     "titleBar.inactiveBackground": "#202730",
     "titleBar.inactiveForeground": "#cccccc99",
     "titleBar.border": "#00000000",
-    "commandCenter.foreground": "#FFDC7A",
+    "commandCenter.foreground": "#6BC5F9",
     "menubar.selectionForeground": "#cccccc",
     "menubar.selectionBackground": "#094771",
     "menu.foreground": "#cccccc",
@@ -1923,7 +1926,7 @@
     "editorCursor.foreground": "#aeafad",
     "editorCursor.background": "#ffffff",
     "editor.selectionBackground": "#264f78",
-    "editor.inactiveSelectionBackground": "#3a3d41ee",
+    "editor.inactiveSelectionBackground": "#3a3d41",
     "editorWhitespace.foreground": "#e3e4e229",
     "editor.selectionHighlightBackground": "#add6ff26",
     "editor.selectionHighlightBorder": "#495F77",
@@ -1942,8 +1945,8 @@
     "editor.lineHighlightBorder": "#282828",
     "editorLineNumber.activeForeground": "#c6c6c6",
     "editorLink.activeForeground": "#4e94ce",
-    "editorIndentGuide.background1": "#404040",
-    "editorIndentGuide.activeBackground1": "#707070",
+    "editorIndentGuide.background": "#404040",
+    "editorIndentGuide.activeBackground": "#707070",
     "editorRuler.foreground": "#5a5a5a",
     "editorBracketMatch.background": "#0064001a",
     "editorBracketMatch.border": "#888888",
@@ -2075,7 +2078,8 @@
     "peekViewTitle.background": "#1e1e1e",
     "peekViewTitleDescription.foreground": "#ccccccb3",
     "peekViewTitleLabel.foreground": "#ffffff",
-    "icon.foreground": "#cccccc",
+    "icon.foreground": "#D7BA7D",
+    // "icon.foreground": "#FFC107",
     "checkbox.background": "#3c3c3c",
     "checkbox.foreground": "#cccccc",
     "checkbox.border": "#00000000",
@@ -2085,7 +2089,7 @@
     "minimapGutter.addedBackground": "#587c0c",
     "minimapGutter.modifiedBackground": "#0c7d9d",
     "minimapGutter.deletedBackground": "#94151b",
-    "minimap.findMatchHighlight": "#515c6aee",
+    "minimap.findMatchHighlight": "#515c6a",
     "minimap.selectionHighlight": "#264f7811",
     "minimap.errorHighlight": "#f48771",
     "minimap.warningHighlight": "#cca700",
@@ -2100,6 +2104,7 @@
     "breadcrumb.activeSelectionForeground": "#e0e0e0",
     "editorGutter.commentRangeForeground": "#c5c5c5",
     "debugExceptionWidget.background": "#333333",
-    "debugExceptionWidget.border": "#474747"
+    "debugExceptionWidget.border": "#474747",
+    "list.activeSelectionIconForeground": "#FCFC85"
   }
 }
