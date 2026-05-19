@@ -3059,9 +3059,9 @@ module.exports = {
       "output": "../Didimus-deep-blue-color-theme.json",
       "name": "Didimus Deep Blue",
       "paletteOverrides": {
-        "activityBarActiveFocusBorder": "#FAC800",
-        "activityBarForeground": "#bbbbbb",
-        "activityBarInactiveForeground": "#027FD4",
+        // "activityBarActiveFocusBorder": "#FAC800",
+        // "activityBarForeground": "#bbbbbb",
+        // "activityBarInactiveForeground": "#027FD4",
         "commandCenterForeground": "#6BC5F9",
         "editorBackground": "#19212c",
         "editorInactiveSelectionBackground": "#3a3d41",
@@ -3072,9 +3072,9 @@ module.exports = {
         "listActiveSelectionIconForeground": "#FCFC85",
         "minimapFindMatchHighlight": "#515c6a",
         "statusBarBackground": "#1c1e26",
-        "statusBarForeground": "#c9d5de",
+        // "statusBarForeground": "#c9d5de",
         "statusBarNoFolderBackground": "#1c1e26",
-        "statusBarNoFolderForeground": "#93afc2",
+        // "statusBarNoFolderForeground": "#ff8e2b",
         "statusBarItemRemoteForeground": "#eeeeee"
       },
       "colorsRemove": [
@@ -3084,15 +3084,15 @@ module.exports = {
         "editorIndentGuide.activeBackground1"
       ],
       "colors": {
-        "activityBar.activeFocusBorder": {
-          "$ref": "activityBarActiveFocusBorder"
-        },
-        "activityBar.foreground": {
-          "$ref": "activityBarForeground"
-        },
-        "activityBar.inactiveForeground": {
-          "$ref": "activityBarInactiveForeground"
-        },
+        // "activityBar.activeFocusBorder": {
+        //   "$ref": "activityBarActiveFocusBorder"
+        // },
+        // "activityBar.foreground": {
+        //   "$ref": "activityBarForeground"
+        // },
+        // "activityBar.inactiveForeground": {
+        //   "$ref": "activityBarInactiveForeground"
+        // },
         "commandCenter.foreground": {
           "$ref": "commandCenterForeground"
         },
@@ -3123,18 +3123,18 @@ module.exports = {
         "statusBar.background": {
           "$ref": "statusBarBackground"
         },
-        "statusBar.foreground": {
-          "$ref": "statusBarForeground"
-        },
+        // "statusBar.foreground": {
+        //   "$ref": "statusBarForeground"
+        // },
         "statusBar.noFolderBackground": {
           "$ref": "statusBarNoFolderBackground"
         },
-        "statusBar.noFolderForeground": {
-          "$ref": "statusBarNoFolderForeground"
-        },
-        "statusBarItem.remoteForeground": {
-          "$ref": "statusBarItemRemoteForeground"
-        }
+        // "statusBar.noFolderForeground": {
+        //   "$ref": "statusBarNoFolderForeground"
+        // },
+        // "statusBarItem.remoteForeground": {
+        //   "$ref": "statusBarItemRemoteForeground"
+        // }
       },
       "tokenColorPatches": [
         {
@@ -3150,195 +3150,7 @@ module.exports = {
         }
       ]
     },
-    "blue": {
-      "extends": "didimus",
-      "output": "../Didimus-blue-color-theme.json",
-      "name": "Didimus Blue",
-      "paletteOverrides": {
-        "activityBarActiveFocusBorder": "#FAC800",
-        "activityBarForeground": "#FAC800",
-        "activityBarInactiveForeground": "#027FD4",
-        "commandCenterForeground": "#6BC5F9",
-        "editorBackground": "#1c1e26",
-        "editorInactiveSelectionBackground": "#3a3d41",
-        "editorIndentGuideBackground": "#404040",
-        "editorIndentGuideActiveBackground": "#707070",
-        "iconForeground": "#D7BA7D",
-        "listActiveSelectionIconForeground": "#FCFC85",
-        "minimapFindMatchHighlight": "#515c6a",
-        "statusBarBackground": "#01558D",
-        "statusBarForeground": "#FAC800",
-        "statusBarNoFolderBackground": "#01558D",
-        "statusBarNoFolderForeground": "#FAC800",
-        "statusBarItemHoverBackground": "#027FD4",
-        "statusBarItemRemoteBackground": "#027FD4",
-        "statusBarItemRemoteForeground": "#FAC800",
-        "tabInactiveForeground": "#999999",
-        "terminalBackground": "#222A35"
-      },
-      "colorsRemove": [
-        "activityBarBadge.foreground",
-        "activityBarBadge.background",
-        "editorIndentGuide.background1",
-        "editorIndentGuide.activeBackground1"
-      ],
-      "colors": {
-        "activityBar.activeFocusBorder": {
-          "$ref": "activityBarActiveFocusBorder"
-        },
-        "activityBar.foreground": {
-          "$ref": "activityBarForeground"
-        },
-        "activityBar.inactiveForeground": {
-          "$ref": "activityBarInactiveForeground"
-        },
-        "commandCenter.foreground": {
-          "$ref": "commandCenterForeground"
-        },
-        "editor.background": {
-          "$ref": "editorBackground"
-        },
-        "editor.inactiveSelectionBackground": {
-          "$ref": "editorInactiveSelectionBackground"
-        },
-        "editorIndentGuide.background": {
-          "$ref": "editorIndentGuideBackground"
-        },
-        "editorIndentGuide.activeBackground": {
-          "$ref": "editorIndentGuideActiveBackground"
-        },
-        "icon.foreground": {
-          "$ref": "iconForeground"
-        },
-        "list.activeSelectionIconForeground": {
-          "$ref": "listActiveSelectionIconForeground"
-        },
-        "minimap.findMatchHighlight": {
-          "$ref": "minimapFindMatchHighlight"
-        },
-        "statusBar.background": {
-          "$ref": "statusBarBackground"
-        },
-        "statusBar.foreground": {
-          "$ref": "statusBarForeground"
-        },
-        "statusBar.noFolderBackground": {
-          "$ref": "statusBarNoFolderBackground"
-        },
-        "statusBar.noFolderForeground": {
-          "$ref": "statusBarNoFolderForeground"
-        },
-        "statusBarItem.hoverBackground": {
-          "$ref": "statusBarItemHoverBackground"
-        },
-        "statusBarItem.remoteBackground": {
-          "$ref": "statusBarItemRemoteBackground"
-        },
-        "statusBarItem.remoteForeground": {
-          "$ref": "statusBarItemRemoteForeground"
-        },
-        "tab.inactiveForeground": {
-          "$ref": "tabInactiveForeground"
-        },
-        "terminal.background": {
-          "$ref": "terminalBackground"
-        }
-      },
-      "tokenColorPatches": [
-        {
-          "match": {
-            "name": "Attribute IDs",
-            "scope": "entity.other.attribute-name.id"
-          },
-          "patch": {
-            "settings": {
-              "fontStyle": "normal"
-            }
-          }
-        }
-      ]
-    },
-    "blueSundown": {
-      "extends": "didimus",
-      "output": "../Didimus-blue-sundown-color-theme.json",
-      "name": "Didimus Blue Sundown",
-      "paletteOverrides": {
-        "activityBarActiveFocusBorder": "#FAC800",
-        "activityBarForeground": "#bbbbbb",
-        "activityBarInactiveForeground": "#027FD4",
-        "commandCenterForeground": "#6BC5F9",
-        "editorInactiveSelectionBackground": "#3a3d41",
-        "editorIndentGuideBackground": "#404040",
-        "editorIndentGuideActiveBackground": "#707070",
-        "iconForeground": "#D7BA7D",
-        "listActiveSelectionIconForeground": "#FCFC85",
-        "minimapFindMatchHighlight": "#515c6a",
-        "statusBarBackground": "#7929B0",
-        "statusBarNoFolderBackground": "#7929B0",
-        "statusBarItemRemoteForeground": "#eeeeee"
-      },
-      "colorsRemove": [
-        "activityBarBadge.foreground",
-        "activityBarBadge.background",
-        "editorIndentGuide.background1",
-        "editorIndentGuide.activeBackground1"
-      ],
-      "colors": {
-        "activityBar.activeFocusBorder": {
-          "$ref": "activityBarActiveFocusBorder"
-        },
-        "activityBar.foreground": {
-          "$ref": "activityBarForeground"
-        },
-        "activityBar.inactiveForeground": {
-          "$ref": "activityBarInactiveForeground"
-        },
-        "commandCenter.foreground": {
-          "$ref": "commandCenterForeground"
-        },
-        "editor.inactiveSelectionBackground": {
-          "$ref": "editorInactiveSelectionBackground"
-        },
-        "editorIndentGuide.background": {
-          "$ref": "editorIndentGuideBackground"
-        },
-        "editorIndentGuide.activeBackground": {
-          "$ref": "editorIndentGuideActiveBackground"
-        },
-        "icon.foreground": {
-          "$ref": "iconForeground"
-        },
-        "list.activeSelectionIconForeground": {
-          "$ref": "listActiveSelectionIconForeground"
-        },
-        "minimap.findMatchHighlight": {
-          "$ref": "minimapFindMatchHighlight"
-        },
-        "statusBar.background": {
-          "$ref": "statusBarBackground"
-        },
-        "statusBar.noFolderBackground": {
-          "$ref": "statusBarNoFolderBackground"
-        },
-        "statusBarItem.remoteForeground": {
-          "$ref": "statusBarItemRemoteForeground"
-        }
-      },
-      "tokenColorPatches": [
-        {
-          "match": {
-            "name": "Attribute IDs",
-            "scope": "entity.other.attribute-name.id"
-          },
-          "patch": {
-            "settings": {
-              "fontStyle": "normal"
-            }
-          }
-        }
-      ]
-    },
-    "Sundown": {
+    "sundown": {
       "extends": "didimus",
       "output": "../Didimus-sundown-color-theme.json",
       "name": "Didimus Sundown",
@@ -3349,9 +3161,10 @@ module.exports = {
         "quickInputForeground": "#c4d2d8",
         // "iconForeground": "#D7BA7D",
         "statusBarForeground": "#ffffff",
+        // "statusBarForeground": "#ffe3e8",
         "statusBarBackground": "#7929B0",
-        "statusBarNoFolderForeground": "#FDC530",
-        "statusBarNoFolderBackground": "#7929B0",
+        "statusBarNoFolderForeground": "#ffa455",
+        "statusBarNoFolderBackground": "#5b1b85",
       },
       "colorsRemove": [
         // "activityBarBadge.foreground",
@@ -3368,96 +3181,6 @@ module.exports = {
         },
         "statusBarItem.remoteForeground": {
           "$ref": "statusBarItemRemoteForeground"
-        }
-      },
-      "tokenColorPatches": [
-        {
-          "match": {
-            "name": "Attribute IDs",
-            "scope": "entity.other.attribute-name.id"
-          },
-          "patch": {
-            "settings": {
-              "fontStyle": "normal"
-            }
-          }
-        }
-      ]
-    },
-    "insiders": {
-      "extends": "didimus",
-      "output": "../Didimus-insiders-color-theme.json",
-      "name": "Didimus Insiders",
-      "paletteOverrides": {
-        "activityBarForeground": "#FAC800",
-        "activityBarInactiveForeground": "#0C9177",
-        "editorBackground": "#1c1e26",
-        "editorInactiveSelectionBackground": "#3a3d4133",
-        "iconForeground": "#D7BA7D",
-        "listActiveSelectionIconForeground": "#FCFC85",
-        "minimapFindMatchHighlight": "#515c6a",
-        "statusBarBackground": "#116B5B",
-        "statusBarForeground": "#FAC800",
-        "statusBarNoFolderBackground": "#116B5B",
-        "statusBarNoFolderForeground": "#FAC800",
-        "statusBarItemHoverBackground": "#16826e",
-        "statusBarItemRemoteBackground": "#24BFA5",
-        "statusBarItemRemoteForeground": "#FAC800",
-        "tabInactiveForeground": "#999999",
-        "terminalBackground": "#222A35"
-      },
-      "colorsRemove": [
-        "activityBarBadge.foreground",
-        "activityBarBadge.background"
-      ],
-      "colors": {
-        "activityBar.foreground": {
-          "$ref": "activityBarForeground"
-        },
-        "activityBar.inactiveForeground": {
-          "$ref": "activityBarInactiveForeground"
-        },
-        "editor.background": {
-          "$ref": "editorBackground"
-        },
-        "editor.inactiveSelectionBackground": {
-          "$ref": "editorInactiveSelectionBackground"
-        },
-        "icon.foreground": {
-          "$ref": "iconForeground"
-        },
-        "list.activeSelectionIconForeground": {
-          "$ref": "listActiveSelectionIconForeground"
-        },
-        "minimap.findMatchHighlight": {
-          "$ref": "minimapFindMatchHighlight"
-        },
-        "statusBar.background": {
-          "$ref": "statusBarBackground"
-        },
-        "statusBar.foreground": {
-          "$ref": "statusBarForeground"
-        },
-        "statusBar.noFolderBackground": {
-          "$ref": "statusBarNoFolderBackground"
-        },
-        "statusBar.noFolderForeground": {
-          "$ref": "statusBarNoFolderForeground"
-        },
-        "statusBarItem.hoverBackground": {
-          "$ref": "statusBarItemHoverBackground"
-        },
-        "statusBarItem.remoteBackground": {
-          "$ref": "statusBarItemRemoteBackground"
-        },
-        "statusBarItem.remoteForeground": {
-          "$ref": "statusBarItemRemoteForeground"
-        },
-        "tab.inactiveForeground": {
-          "$ref": "tabInactiveForeground"
-        },
-        "terminal.background": {
-          "$ref": "terminalBackground"
         }
       },
       "tokenColorPatches": [

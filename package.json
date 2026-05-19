@@ -37,24 +37,9 @@
         "path": "./themes/Didimus-deep-blue-color-theme.json"
       },
       {
-        "label": "Didimus Blue",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-blue-color-theme.json"
-      },
-      {
-        "label": "Didimus Blue Sundown",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-blue-sundown-color-theme.json"
-      },
-      {
         "label": "Didimus Sundown",
         "uiTheme": "vs-dark",
         "path": "./themes/Didimus-sundown-color-theme.json"
-      },
-      {
-        "label": "Didimus Insiders",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-insiders-color-theme.json"
       }
     ]
   }
