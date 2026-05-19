@@ -800,7 +800,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": "#6ac5f9"
       }
     },
@@ -1849,14 +1849,9 @@
     "focusBorder": "#007fd4",
     "selection.background": "#256aa7",
     "scrollbar.shadow": "#000000",
-    // "activityBarTop.foreground":"#FFC107",
-    "activityBar.activeFocusBorder":"#FAC800",
     "activityBar.foreground": "#bbbbbb",
     "activityBar.background": "#1c1e26",
     "activityBar.inactiveForeground": "#027FD4",
-    // "activityBar.inactiveForeground": "#94FDEB",
-    // "activityBarBadge.foreground": "#ffffff",
-    // "activityBarBadge.background": "#007acc",
     "activityBar.border": "#1c1e26",
     "sideBar.background": "#242f3d",
     "sideBar.border": "#285E8C",
@@ -1945,8 +1940,6 @@
     "editor.lineHighlightBorder": "#282828",
     "editorLineNumber.activeForeground": "#c6c6c6",
     "editorLink.activeForeground": "#4e94ce",
-    "editorIndentGuide.background": "#404040",
-    "editorIndentGuide.activeBackground": "#707070",
     "editorRuler.foreground": "#5a5a5a",
     "editorBracketMatch.background": "#0064001a",
     "editorBracketMatch.border": "#888888",
@@ -2079,7 +2072,6 @@
     "peekViewTitleDescription.foreground": "#ccccccb3",
     "peekViewTitleLabel.foreground": "#ffffff",
     "icon.foreground": "#c9d5de",
-    // "icon.foreground": "#FFC107",
     "checkbox.background": "#3c3c3c",
     "checkbox.foreground": "#cccccc",
     "checkbox.border": "#00000000",
@@ -2105,6 +2097,9 @@
     "editorGutter.commentRangeForeground": "#c5c5c5",
     "debugExceptionWidget.background": "#333333",
     "debugExceptionWidget.border": "#474747",
+    "activityBar.activeFocusBorder": "#FAC800",
+    "editorIndentGuide.background": "#404040",
+    "editorIndentGuide.activeBackground": "#707070",
     "list.activeSelectionIconForeground": "#FCFC85"
   }
 }

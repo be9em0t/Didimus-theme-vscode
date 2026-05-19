@@ -800,7 +800,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": "#6ac5f9"
       }
     },
@@ -1849,13 +1849,9 @@
     "focusBorder": "#007fd4",
     "selection.background": "#256aa7",
     "scrollbar.shadow": "#000000",
-    // "activityBar.foreground": "#24BFA5",
     "activityBar.foreground": "#FAC800",
     "activityBar.background": "#1c1e26",
-    // "activityBar.inactiveForeground": "#D7BA7D",
     "activityBar.inactiveForeground": "#0C9177",
-    // "activityBarBadge.foreground": "#ffffff",
-    // "activityBarBadge.background": "#007acc",
     "activityBar.border": "#1c1e26",
     "sideBar.background": "#242f3d",
     "sideBar.border": "#285E8C",
@@ -1878,8 +1874,8 @@
     "listFilterWidget.background": "#653723",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#be1100",
-    "statusBar.foreground": "#FAC800",
     "statusBar.background": "#116B5B",
+    "statusBar.foreground": "#FAC800",
     "statusBarItem.hoverBackground": "#16826e",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",

@@ -800,7 +800,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "normal",
+        "fontStyle": "",
         "foreground": "#6ac5f9"
       }
     },
@@ -1140,7 +1140,7 @@
       }
     },
     {
-      "name": "support php constants",
+      "name": "support rust constants",
       "scope": "support.constant.core.rust",
       "settings": {
         "foreground": "#6ac5f9"
@@ -1875,8 +1875,8 @@
     "listFilterWidget.background": "#653723",
     "listFilterWidget.outline": "#00000000",
     "listFilterWidget.noMatchesOutline": "#be1100",
-    "statusBar.foreground": "#ffffff",
     "statusBar.background": "#1c1e26",
+    "statusBar.foreground": "#ffffff",
     "statusBarItem.hoverBackground": "#ffffff1f",
     "statusBar.debuggingBackground": "#cc6633",
     "statusBar.debuggingForeground": "#ffffff",
@@ -1937,8 +1937,6 @@
     "editor.lineHighlightBorder": "#282828",
     "editorLineNumber.activeForeground": "#c6c6c6",
     "editorLink.activeForeground": "#4e94ce",
-    "editorIndentGuide.background": "#404040",
-    "editorIndentGuide.activeBackground": "#707070",
     "editorRuler.foreground": "#5a5a5a",
     "editorBracketMatch.background": "#0064001a",
     "editorBracketMatch.border": "#888888",
@@ -2094,6 +2092,8 @@
     "breadcrumb.activeSelectionForeground": "#e0e0e0",
     "editorGutter.commentRangeForeground": "#c5c5c5",
     "debugExceptionWidget.background": "#333333",
-    "debugExceptionWidget.border": "#474747"
+    "debugExceptionWidget.border": "#474747",
+    "editorIndentGuide.background": "#404040",
+    "editorIndentGuide.activeBackground": "#707070"
   }
 }

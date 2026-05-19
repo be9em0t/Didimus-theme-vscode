@@ -4,10 +4,16 @@ Didimus is a VS Code dark theme extension with a high-contrast neon palette for 
 
 ## Build
 
-Create a local `.vsix` package from the repository root with either of these cross-platform commands:
+First render the theme JSON from source:
 
 ```bash
-npx @vscode/vsce package
+npm run build:themes
+```
+
+Then create a local `.vsix` package from the repository root with either of these cross-platform commands:
+
+```bash
+npx @vscode/vsce package --out vsix/didimus-0.0.8.vsix
 ```
 
 Or, if `vsce` is already installed globally:

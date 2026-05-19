@@ -10,6 +10,7 @@
     "vscode": "^1.70.0"
   },
   "scripts": {
+    "build:themes": "node ./scripts/render-theme-source.js ./themes/source/Didimus.source.js",
     "build:insiders": "node ./scripts/build-insiders.js"
   },
   "categories": [
