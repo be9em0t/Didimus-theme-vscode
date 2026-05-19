@@ -105,6 +105,21 @@ function applyTokenColorPatches(theme, patches) {
   theme.tokenColors = out;
 }
 
+function updatePackageManifest(sourceDir, themes) {
+  const packagePath = path.resolve(sourceDir, '..', '..', 'package.json');
+  const pkg = JSON.parse(fs.readFileSync(packagePath, 'utf8'));
+  const themeEntries = Object.entries(themes).map(([id, spec]) => ({
+    label: spec.name || id,
+    uiTheme: spec.uiTheme || 'vs-dark',
+    path: `./themes/${path.basename(spec.output || `${id}.json`)}`,
+  }));
+
+  if (!pkg.contributes) pkg.contributes = {};
+  pkg.contributes.themes = themeEntries;
+  fs.writeFileSync(packagePath, JSON.stringify(pkg, null, 2) + '\n', 'utf8');
+  console.log(`Wrote ${path.relative(process.cwd(), packagePath)}`);
+}
+
 function renderSource(sourcePath) {
   const absSourcePath = path.resolve(sourcePath);
   const sourceDir = path.dirname(absSourcePath);
@@ -131,6 +146,8 @@ function renderSource(sourcePath) {
     fs.writeFileSync(outputPath, JSON.stringify(resolved, null, 2) + '\n', 'utf8');
     console.log(`Wrote ${path.relative(process.cwd(), outputPath)}`);
   }
+
+  updatePackageManifest(sourceDir, themes);
 }
 
 if (require.main === module) {

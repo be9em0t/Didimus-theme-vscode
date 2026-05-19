@@ -27,9 +27,14 @@
         "path": "./themes/Didimus-color-theme.json"
       },
       {
-        "label": "Didimus Insiders",
+        "label": "Didimus Classic",
         "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-insiders-color-theme.json"
+        "path": "./themes/Didimus-classic-theme.json"
+      },
+      {
+        "label": "Didimus Deep Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Didimus-deep-blue-color-theme.json"
       },
       {
         "label": "Didimus Blue",
@@ -42,14 +47,14 @@
         "path": "./themes/Didimus-blue-sundown-color-theme.json"
       },
       {
-        "label": "Didimus Deep Blue",
+        "label": "Didimus Sundown",
         "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-deep-blue-color-theme.json"
+        "path": "./themes/Didimus-sundown-color-theme.json"
       },
       {
-        "label": "Didimus Classic",
+        "label": "Didimus Insiders",
         "uiTheme": "vs-dark",
-        "path": "./themes/Didimus-classic-theme.json"
+        "path": "./themes/Didimus-insiders-color-theme.json"
       }
     ]
   }

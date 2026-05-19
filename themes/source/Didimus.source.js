@@ -3338,6 +3338,52 @@ module.exports = {
         }
       ]
     },
+    "Sundown": {
+      "extends": "didimus",
+      "output": "../Didimus-sundown-color-theme.json",
+      "name": "Didimus Sundown",
+      "paletteOverrides": {
+        "commandCenterForeground": "#c4d2d8",
+        "quickInputBackground": "#282931",
+        "quickInputFocusForeground": "#FDC530",
+        "quickInputForeground": "#c4d2d8",
+        // "iconForeground": "#D7BA7D",
+        "statusBarForeground": "#ffffff",
+        "statusBarBackground": "#7929B0",
+        "statusBarNoFolderForeground": "#FDC530",
+        "statusBarNoFolderBackground": "#7929B0",
+      },
+      "colorsRemove": [
+        // "activityBarBadge.foreground",
+        // "activityBarBadge.background",
+        // "editorIndentGuide.background1",
+        // "editorIndentGuide.activeBackground1"
+      ],
+      "colors": {
+        "statusBar.background": {
+          "$ref": "statusBarBackground"
+        },
+        "statusBar.noFolderBackground": {
+          "$ref": "statusBarNoFolderBackground"
+        },
+        "statusBarItem.remoteForeground": {
+          "$ref": "statusBarItemRemoteForeground"
+        }
+      },
+      "tokenColorPatches": [
+        {
+          "match": {
+            "name": "Attribute IDs",
+            "scope": "entity.other.attribute-name.id"
+          },
+          "patch": {
+            "settings": {
+              "fontStyle": "normal"
+            }
+          }
+        }
+      ]
+    },
     "insiders": {
       "extends": "didimus",
       "output": "../Didimus-insiders-color-theme.json",
