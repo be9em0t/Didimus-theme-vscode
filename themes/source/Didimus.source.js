@@ -14,8 +14,10 @@ module.exports = {
     "accentSand": "#ffdd99",
     "accentSky": "#6ac5f9",
     "activityBarActiveFocusBorder": "#FAC800",
-    "activityBarForeground": "#ffffff",
-    "activityBarInactiveForeground": "#ffffff66",
+    "activityBarForeground": "#75beff",
+    // "activityBarForeground": "#ffffff",
+    "activityBarInactiveForeground": "#4f6887",
+    // "activityBarInactiveForeground": "#ffffff66",
     "baseBackground": "#1c1e26",
     "black": "#000000",
     "borderMuted": "#474747",
@@ -58,14 +60,18 @@ module.exports = {
     "selectionBackground": "#256aa7",
     "selectionBlue": "#094771",
     "sidebarBackground": "#242f3d",
-    "statusBarBackground": "#7929B0",
+    "statusBarForeground": "#c4d2d8",
+    // "statusBarForeground": "#e7caff",
+    "statusBarBackground": "#1c1e26",
+    // "statusBarBackground": "#7929B0",
     "statusBarDebuggingBackground": "#cc6633",
-    "statusBarForeground": "#e7caff",
     "statusBarItemHoverBackground": "#B957BF",
-    "statusBarItemRemoteBackground": "#01558D",
-    "statusBarItemRemoteForeground": "#e7caff",
-    "statusBarNoFolderBackground": "#68217a",
-    "statusBarNoFolderForeground": "#e7caff",
+    "statusBarItemRemoteForeground": "#B957BF",
+    "statusBarItemRemoteBackground": "#1c1e26",
+    "statusBarNoFolderForeground": "#ff8e2b",
+    // "statusBarNoFolderForeground": "#e7caff",
+    "statusBarNoFolderBackground": "#1c1e26",
+    // "statusBarNoFolderBackground": "#68217a",
     "tabInactiveForeground": "#93afc2",
     "terminalBackground": "#19212c",
     "textFaint": "#a6a6a6",
@@ -2496,7 +2502,7 @@ module.exports = {
           "$ref": "statusBarDebuggingBackground"
         },
         "statusBar.debuggingForeground": {
-          "$ref": "white"
+          "$ref": "statusBarBackground"
         },
         "statusBar.noFolderBackground": {
           "$ref": "statusBarNoFolderBackground"
@@ -3267,6 +3273,7 @@ module.exports = {
         "iconForeground": "#D7BA7D",
         "listActiveSelectionIconForeground": "#FCFC85",
         "minimapFindMatchHighlight": "#515c6a",
+        "statusBarBackground": "#7929B0",
         "statusBarNoFolderBackground": "#7929B0",
         "statusBarItemRemoteForeground": "#eeeeee"
       },
@@ -3306,6 +3313,9 @@ module.exports = {
         },
         "minimap.findMatchHighlight": {
           "$ref": "minimapFindMatchHighlight"
+        },
+        "statusBar.background": {
+          "$ref": "statusBarBackground"
         },
         "statusBar.noFolderBackground": {
           "$ref": "statusBarNoFolderBackground"
