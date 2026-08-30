@@ -1,41 +1,46 @@
-# Didimus
+# Didimus Theme
 
-Didimus is a VS Code dark theme extension with a high-contrast neon palette for editor tokens and workbench UI.
+Fragrant darkness theme for Visual Studio Code.
 
-## Build
+Didimus is a dark theme with warm gold, orange, and neon accents. It is made for readable editor tokens and a workbench that stays lively without becoming a carnival of emergency lights.
 
-First render the theme JSON from source:
+## Included themes
+
+- **Didimus** — the main warm dark theme.
+- **Didimus Classic** — the original, familiar Didimus look.
+- **Didimus Deep Blue** — a cooler dark-blue interpretation.
+- **Didimus Sundown** — a warmer, sunset-toned variant.
+
+Select any variant with **Preferences: Color Theme** in VS Code.
+
+## Install
+
+Install **Didimus** directly from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=be9em0t.didimus). VS Code Settings Sync can then keep the Marketplace version aligned across your machines.
+
+For a local development build, package the extension and install the resulting VSIX:
+
+```bash
+npm run build:themes
+npx @vscode/vsce package --out vsix/didimus-0.1.0.vsix
+code --install-extension vsix/didimus-0.1.0.vsix
+```
+
+You can also install a VSIX from the Extensions view: **… → Install from VSIX…**.
+
+## Development
+
+Theme JSON files are generated from [`themes/source/Didimus.source.js`](themes/source/Didimus.source.js). Make source edits there, then regenerate the distributable themes:
 
 ```bash
 npm run build:themes
 ```
 
-Then create a local `.vsix` package from the repository root with either of these cross-platform commands:
+The generated JSON files in `themes/` are committed because they are the files VS Code loads from the packaged extension.
 
-```bash
-npx @vscode/vsce package --out vsix/didimus-0.0.8.vsix
-```
+## Compatibility
 
-Or, if `vsce` is already installed globally:
+Didimus supports VS Code `^1.70.0` and later. It contributes only colour themes and a default editor font-family preference; it has no runtime activation, executable extension code, telemetry, or network behavior.
 
-```bash
-vsce package
-```
+## Feedback
 
-The generated `.vsix` file is written to the project root.
-
-## Install Locally
-
-After building, install the package in VS Code:
-
-```bash
-code --install-extension didimus-0.0.4.vsix
-```
-
-You can also use the Extensions view menu in VS Code and choose `Install from VSIX...`.
-
-## Future Work
-
-- Command Center label dimming: `commandCenter.foreground` is now tuned in the bundled themes, but the final rendered workspace/session label in VS Code still dims after the window finishes reloading.
-- Current diagnosis: the bright theme color appears briefly during `Developer: Reload Window`, then later component CSS dims the label, likely via the compact agent status label styling.
-- Theme JSON alone is probably not enough to fully fix this. The practical next step is to test a custom CSS loader override for `.command-center .agent-status-pill.compact-mode .agent-status-label` with `opacity: 1` and explicit foreground color inheritance.
+Issues and suggestions are welcome at [GitHub Issues](https://github.com/be9em0t/Didimus-theme-vscode/issues).

@@ -1,11 +1,19 @@
 {
   "name": "didimus",
-  "displayName": "Didimus",
-  "description": "Fragrant Darkness",
-  "version": "0.0.7",
+  "displayName": "Didimus Theme",
+  "description": "Fragrant darkness theme for Visual Studio Code.",
+  "version": "0.1.0",
   "publisher": "be9em0t",
   "repository": "https://github.com/be9em0t/Didimus-theme-vscode.git",
-  "icon": "media/Didimus_Transparent.png",
+  "icon": "media/Didimus_Transparent_256.png",
+  "keywords": [
+    "dark",
+    "high contrast",
+    "neon",
+    "orange",
+    "gold",
+    "theme"
+  ],
   "engines": {
     "vscode": "^1.70.0"
   },

@@ -1,4 +1,12 @@
 .vscode/**
 .vscode-test/**
+.git/**
 .gitignore
+.gitattributes
+.vscodeignore
+scripts/**
+themes/source/**
+MERGE_CONFLICT_SAMPLE.txt
 vsc-extension-quickstart.md
+media/Didimus_A.png
+media/Didimus_Transparent.png
