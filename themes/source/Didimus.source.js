@@ -2492,12 +2492,9 @@ module.exports = {
         "statusBar.background": {
           "$ref": "statusBarBackground"
         },
-        "statusBar.foreground": {
-          "$ref": "statusBarForeground"
-        },
-        "statusBarItem.hoverBackground": {
-          "$ref": "statusBarItemHoverBackground"
-        },
+        "statusBar.foreground": "#4672a3",
+        "statusBarItem.hoverBackground": "#1c1e26",
+        "statusBarItem.hoverForeground": "#ff8e2b",
         "statusBar.debuggingBackground": {
           "$ref": "statusBarDebuggingBackground"
         },
@@ -2982,15 +2979,12 @@ module.exports = {
         "terminal.background"
       ],
       "colors": {
-        "statusBar.foreground": {
-          "$ref": "statusBarForeground"
-        },
+        "statusBar.foreground": "#4672a3",
         "statusBar.background": {
           "$ref": "statusBarBackground"
         },
-        "statusBarItem.hoverBackground": {
-          "$ref": "statusBarItemHoverBackground"
-        },
+        "statusBarItem.hoverBackground": "#1c1e26",
+        "statusBarItem.hoverForeground": "#ff8e2b",
         "statusBar.noFolderForeground": {
           "$ref": "statusBarNoFolderForeground"
         },
@@ -3120,12 +3114,10 @@ module.exports = {
         "minimap.findMatchHighlight": {
           "$ref": "minimapFindMatchHighlight"
         },
-        "statusBar.background": {
-          "$ref": "statusBarBackground"
-        },
-        // "statusBar.foreground": {
-        //   "$ref": "statusBarForeground"
-        // },
+        "statusBar.background": "#19212C",
+        "statusBar.foreground": "#4f86d8",
+        "statusBarItem.hoverBackground": "#1c1e26",
+        "statusBarItem.hoverForeground": "#ff8e2b",
         "statusBar.noFolderBackground": {
           "$ref": "statusBarNoFolderBackground"
         },
@@ -3170,15 +3162,18 @@ module.exports = {
         // "activityBarBadge.foreground",
         // "activityBarBadge.background",
         // "editorIndentGuide.background1",
-        // "editorIndentGuide.activeBackground1"
+        // "editorIndentGuide.activeBackground1",
+        "statusBarItem.hoverForeground"
       ],
       "colors": {
         "statusBar.background": {
           "$ref": "statusBarBackground"
         },
+        "statusBar.foreground": "#ffffff",
         "statusBar.noFolderBackground": {
           "$ref": "statusBarNoFolderBackground"
         },
+        "statusBarItem.hoverBackground": "#B957BF",
         "statusBarItem.remoteForeground": {
           "$ref": "statusBarItemRemoteForeground"
         }

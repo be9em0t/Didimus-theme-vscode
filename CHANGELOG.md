@@ -2,6 +2,19 @@
 
 All notable changes to Didimus are documented here.
 
+## [0.1.2] - 2026-08-31
+
+### Changed
+
+- Tuned Didimus Deep Blue's status bar foreground to `#4f86d8` and background to `#19212C`.
+
+## [0.1.1] - 2026-08-31
+
+### Changed
+
+- Refined the status bar foreground and hover styling in Didimus, Didimus Classic, and Didimus Deep Blue.
+- Preserved Didimus Sundown's existing status-bar styling unchanged.
+
 ## [0.1.0] - 2026-08-30
 
 ### Added
