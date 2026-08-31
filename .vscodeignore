@@ -8,5 +8,6 @@ scripts/**
 themes/source/**
 MERGE_CONFLICT_SAMPLE.txt
 vsc-extension-quickstart.md
+vsix/**
 media/Didimus_A.png
 media/Didimus_Transparent.png
